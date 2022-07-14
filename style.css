@@ -1,0 +1,102 @@
+body {
+  background-color: #f2e9e4;
+  font-family: 'Quicksand', sans-serif;
+  color: #22223b;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1, h2 {
+  color: #4a4e69;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 32px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+}
+
+
+a {
+  color: #4a4e69;
+}
+
+a:hover {
+  color: #22223b;
+  transition: .3s ease-in-out;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  text-align: center;
+}
+
+#footer {
+  padding-bottom: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding: 0;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.btn-purple {
+  background-color: #9a8c98;
+  border-radius: 4px;
+  color: #f2e9e4;
+  opacity: 90%;
+  padding: 7px 14px;
+  text-decoration: none;
+}
+
+.btn-purple:hover {
+  color: #f2e9e4;
+  opacity: 100%;
+  transition: .3s ease-in-out;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
